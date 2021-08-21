@@ -1,6 +1,19 @@
-// swift-tools-version:5.4
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
-    name: "BinUtils"
+    name: "BinUtils",
+    products: [
+        .library(
+            name: "BinUtils",
+            targets: ["BinUtils"]),
+    ],
+    targets: [
+        .target(
+            name: "BinUtils",
+            dependencies: []),
+        .testTarget(
+            name: "BinUtilsTests",
+            dependencies: ["BinUtils"]),
+    ]
 )
