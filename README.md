@@ -5,9 +5,11 @@ Swift functions to ease working with binary formats
 
 Either copy `BinUtils.swift` into your project, or use Swift Package Manager by adding the following dependency to your `Package.swift`:
 
+```swift
     dependencies: [
         .Package(url: "https://github.com/nst/BinUtils.git", majorVersion: 0, minor: 1),
     ]
+```
 
 **hexlify(data)**
 
