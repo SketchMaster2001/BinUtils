@@ -7,7 +7,7 @@ Either copy `BinUtils.swift` into your project, or use Swift Package Manager by 
 
 ```swift
     dependencies: [
-        .Package(url: "https://github.com/nst/BinUtils.git", majorVersion: 0, minor: 1),
+        .Package(url: "https://github.com/SketchMaster2001/BinUtils.git", branch: "master"),
     ]
 ```
 
